@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercice_1</title>
+
+    <link rel="stylesheet" href="Assets/styles/Millieu.css">
+    <link rel="stylesheet" href="Assets/styles/barre_rouge.css">
+    <link rel="stylesheet" href="Assets/styles/gallery-container.css">
+    <link rel="stylesheet" href="Assets/styles/sport_entrainement.css">
+    <link rel="stylesheet" href="Assets/styles/tableau.css">
+    <link rel="stylesheet" href="Assets/styles/last_partie.css">
+    <link rel="stylesheet" href="Assets/styles/footer.css">
+
+ <!-- le cdnjs pour le awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- le cdnjs pour le awesome -->
-    <link rel="stylesheet" href="exo1.css">
+   
+    <link rel="stylesheet" href="Assets/styles/main.css">
     
 </head>
 <body>
@@ -26,9 +36,9 @@
 
     <!-- Millieu -->
     <div class="Millieu">
-        <img style="margin-left: 100px; height: 50px;" src="logo2.png" >
-        
-        <img src="html.png" height="100px" width="500px" alt="">
+
+        <img style="margin-left: 100px; height: 50px;" src="Assets/img/logo2.png" >
+        <img src="Assets/img/html.png" height="100px" width="500px" alt="">
         <div style="margin-right: 100px;" class="recherche">
             <input type="text" placeholder="recherche">
             <button>🔍</button>
@@ -63,7 +73,7 @@
     <div class="gallery-container">
         <div class="carousel">
             <div class="carousel-slide">
-                <img style="object-fit:cover;" src="téléchargement.jpeg" height="400px" width="9000px" alt="Image 1">
+                <img style="object-fit:cover;" src="Assets/img/téléchargement.jpeg" height="400px" width="9000px" alt="Image 1">
                 <div class="carousel-caption">
                     <h2>Lorem ipsum dolor sit amet</h2>
                 </div>
@@ -74,31 +84,35 @@
         
         <div class="image-grid">
             <div class="image-card">
-                <img src="2.jpg" height="20px" width="30px" alt="Image 2">
+                <img src="Assets/img/2.jpg" height="20px" width="30px" alt="Image 2">
                 <div class="image-overlay">
                     <h3>Lorem ipsum dolor sit</h3>
                 </div>
             </div>
             <div class="image-card">
-                <img src="3.jpg" alt="Image 3">
+                <img src="Assets/img/3.jpg" alt="Image 3">
                 <div class="image-overlay">
                     <h3>Lorem ipsum dolor sit</h3>
                 </div>
             </div>
             <div class="image-card">
-                <img src="4.jpg" alt="Image 4">
+                <img src="Assets/img/4.jpg" alt="Image 4">
                 <div class="image-overlay">
                     <h3>Lorem ipsum dolor sit</h3>
                 </div>
             </div>
             <div class="image-card">
-                <img src="5.jpg" alt="Image 5">
+                <img src="Assets/img/5.jpg" alt="Image 5">
                 <div class="image-overlay">
                     <h3>Lorem ipsum dolor sit</h3>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <!-- une autre partie -->
+
 
     <div class="container">
         <div class="category">
@@ -112,11 +126,11 @@
             <hr>
             <div class="carousel">
                 <div class="card">
-                    <img src="1.jpg" alt="Sport 1">
+                    <img src="Assets/img/1.jpg" alt="Sport 1">
                     <p>Lorem ipsum dolor sit</p>
                 </div>
                 <div class="card">
-                    <img src="3.jpg" alt="Sport 2">
+                    <img src="Assets/img/3.jpg" alt="Sport 2">
                     <p>Lorem ipsum dolor sit</p>
                 </div>
             </div>
@@ -132,16 +146,17 @@
             <hr>
             <div class="carousel">
                 <div class="card">
-                    <img src="1.jpg" alt="Technology 1">
+                    <img src="Assets/img/1.jpg" alt="Technology 1">
                     <p>Lorem ipsum dolor sit</p>
                 </div>
                 <div class="card">
-                    <img src="4.jpg" alt="Technology 2">
+                    <img src="Assets/img/4.jpg" alt="Technology 2">
                     <p>Lorem ipsum dolor sit</p>
                 </div>
             </div>
         </div>
     </div>
+
 
     <div class="container">
         <div class="category">
@@ -155,11 +170,11 @@
             <hr>
             <div class="carousel">
                 <div class="card">
-                    <img src="1.jpg" alt="Sport 1">
+                    <img src="Assets/img/1.jpg" alt="Sport 1">
                     <p>Lorem ipsum dolor sit</p>
                 </div>
                 <div class="card">
-                    <img src="3.jpg" alt="Sport 2">
+                    <img src="Assets/img/3.jpg" alt="Sport 2">
                     <p>Lorem ipsum dolor sit</p>
                 </div>
             </div>
@@ -175,20 +190,26 @@
             <hr>
             <div class="carousel">
                 <div class="card">
-                    <img src="1.jpg" alt="Technology 1">
+                    <img src="Assets/img/1.jpg" alt="Technology 1">
                     <p>Lorem ipsum dolor sit</p>
                 </div>
                 <div class="card">
-                    <img src="4.jpg" alt="Technology 2">
+                    <img src="Assets/img/4.jpg" alt="Technology 2">
                     <p>Lorem ipsum dolor sit</p>
                 </div>
             </div>
         </div>
     </div>
 
+
+
+
+    <!-- partie tableau -->
+
     <div class="tab-row">
         <div class="tab-container">
             <div class="tabs">
+                <!-- la partie des tables rouges noir et blanc -->
                 <div class="tab active" data-tab="featured1">Featured News</div>
                 <div class="tab" data-tab="popular1">Popular News</div>
                 <div class="tab" data-tab="latest1">Latest News</div>
@@ -197,15 +218,15 @@
             <div class="tab-content">
                 <div class="tab-panel active" id="featured1">
                     <div class="news-item">
-                        <img src="1.jpg" height="" alt="News Image">
+                        <img src="Assets/img/1.jpg" height="" alt="News Image">
                         <p>Lorem ipsum dolor sit amet</p>
                     </div>
                     <div class="news-item">
-                        <img src="2.jpg" alt="News Image">
+                        <img src="Assets/img/2.jpg" alt="News Image">
                         <p>Lorem ipsum dolor sit amet</p>
                     </div>
                     <div class="news-item">
-                        <img src="3.jpg" alt="News Image">
+                        <img src="Assets/img/3.jpg" alt="News Image">
                         <p>Lorem ipsum dolor sit amet</p>
                     </div>
                 </div>
@@ -213,7 +234,7 @@
 
                 <div class="tab-panel" id="popular1">
                     <div class="news-item">
-                        <img src="8.jpg" alt="News Image">
+                        <img src="Assets/img/8.jpg" alt="News Image">
                         <p>Lorem ipsum dolor sit amet</p>
                     </div>
                     <div class="news-item">
@@ -235,9 +256,10 @@
         </div>
 
 
-        <!-- la partie des tables rouges noir et blanc -->
+        
         <div class="tab-container">
             <div class="tabs">
+                <!-- la partie des tables rouges noir et blanc -->
                 <div class="tab active" data-tab="mostviewed2">Most Viewed</div>
                 <div class="tab" data-tab="mostread2">Most Read</div>
                 <div class="tab" data-tab="mostrecent2">Most Recent</div>
@@ -246,15 +268,15 @@
             <div class="tab-content">
                 <div class="tab-panel active" id="mostviewed2">
                     <div class="news-item">
-                        <img src="4.jpg" alt="News Image">
+                        <img src="Assets/img/4.jpg" alt="News Image">
                         <p>Lorem ipsum dolor sit amet</p>
                     </div>
                     <div class="news-item">
-                        <img src="5.jpg" alt="News Image">
+                        <img src="Assets/img/5.jpg" alt="News Image">
                         <p>Lorem ipsum dolor sit amet</p>
                     </div>
                     <div class="news-item">
-                        <img src="6.jpg" alt="News Image">
+                        <img src="Assets/img/6.jpg" alt="News Image">
                         <p>Lorem ipsum dolor sit amet</p>
                     </div>
                     
@@ -293,47 +315,47 @@
         <div class="grid">
 
           <div class="item">
-            <img src="aa1.jpeg" alt="Image 1">
+            <img src="Assets/img/aa1.jpeg" alt="Image 1">
             <p>Lorem ipsum dolor sit</p>
           </div>
 
           <div class="item">
-            <img src="aa1.jpeg" alt="Image 2">
+            <img src="Assets/img/aa1.jpeg" alt="Image 2">
             <p>Lorem ipsum dolor sit</p>
           </div>
 
           <div class="item">
-            <img src="aa1.jpeg" alt="Image 3">
+            <img src="Assets/img/aa1.jpeg" alt="Image 3">
             <p>Lorem ipsum dolor sit</p>
           </div>
 
           <div class="item">
-            <img src="aa6.jpeg" alt="Image 4">
+            <img src="Assets/img/aa6.jpeg" alt="Image 4">
             <p>Lorem ipsum dolor sit</p>
           </div>
 
           <div class="item">
-            <img src="aa6.jpeg" alt="Image 5">
+            <img src="Assets/img/aa6.jpeg" alt="Image 5">
             <p>Lorem ipsum dolor sit</p>
           </div>
 
           <div class="item">
-            <img src="aa6.jpeg" alt="Image 6">
+            <img src="Assets/img/aa6.jpeg" alt="Image 6">
             <p>Lorem ipsum dolor sit</p>
           </div>
 
           <div class="item">
-            <img src="aa7.jpeg" alt="Image 6">
+            <img src="Assets/img/aa7.jpeg" alt="Image 6">
             <p>Lorem ipsum dolor sit</p>
           </div>
 
           <div class="item">
-            <img src="aa7.jpeg" alt="Image 6">
+            <img src="Assets/img/aa7.jpeg" alt="Image 6">
             <p>Lorem ipsum dolor sit</p>
           </div>
 
           <div class="item">
-            <img src="aa7.jpeg" alt="Image 6">
+            <img src="Assets/img/aa7.jpeg" alt="Image 6">
             <p>Lorem ipsum dolor sit</p>
           </div>
         </div>
@@ -358,80 +380,79 @@
 
 
 
-    <footer style="background-color: #111; color: white; padding: 40px 20px;">
-        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; max-width: 1200px; margin: auto;">
+    <footer  class="footer" >
+        <div class="f1">
 
-            <div class="un" style="flex: 1; min-width: 200px; margin-bottom: 20px;">
-                <h3 style="text-transform: uppercase;">Get in Touch</h3>
+            <div class="un" >
+                <h3 >Get in Touch</h3>
                 <hr>
                 <hr>
                 <p>123 News Street, NY, USA</p>
                 <p>info@example.com</p>
                 <p>+123-456-7890</p>
-                <div  style="margin-top: 10px;">
-                    <a href="#" style="color: rgb(0, 0, 0); margin-right: 10px;background-color: #ffff; height: 10px;"><i class="fab fa-twitter"></i></a>
+                <div class="un_1" >
+                    <a  href="#" ><i class="fab fa-twitter"></i></a>
 
-                    <a href="#" style="color: rgb(0, 0, 0); margin-right: 10px; background-color: #ffff;"><i class="fab fa-facebook"></i></a>
-                    <a href="#" style="color: rgb(0, 0, 0); margin-right: 10px;background-color: #ffff;"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" style="color: rgb(0, 0, 0); margin-right: 10px;background-color: #ffff;"><i class="fab fa-instagram"></i></a>
-                    <a href="#" style="color: rgb(0, 0, 0);background-color: #ffff;"><i class="fab fa-youtube"></i></a>
+                    <a href="#" ><i class="fab fa-facebook"></i></a>
+                    <a href="#" ><i class="fab fa-linkedin"></i></a>
+                    <a href="#" ><i class="fab fa-instagram"></i></a>
+                    <a id="autre" href="#"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
     
-            <div class="deux" style="flex: 1; min-width: 200px; margin-bottom: 20px;">
-                <h3 style="text-transform: uppercase;" >Useful Links</h3>
+            <div class="deux" >
+                <h3>Useful Links</h3>
                 <hr>
                 <hr>
-                <ul style="list-style: none; padding: 0;">
-                    <li><a href="#" style="color: white; text-decoration: none;">Lorem ipsum</a></li>
-                    <li><a href="#" style="color: white; text-decoration: none;">Pellentesque</a></li>
-                    <li><a href="#" style="color: white; text-decoration: none;">Aenean vulputate</a></li>
-                    <li><a href="#" style="color: white; text-decoration: none;">Vestibulum sit amet</a></li>
-                    <li><a href="#" style="color: white; text-decoration: none;">Nam dignissim</a></li>
+                <ul>
+                    <li><a href="#" >Lorem ipsum</a></li>
+                    <li><a href="#" >Pellentesque</a></li>
+                    <li><a href="#" >Aenean vulputate</a></li>
+                    <li><a href="#" >Vestibulum sit amet</a></li>
+                    <li><a href="#" >Nam dignissim</a></li>
                 </ul>
             </div>
     
-            <div class="trois"style="flex: 1; min-width: 200px; margin-bottom: 20px;">
-            <h3 style="text-transform: uppercase;" >Quick Links</h3>
+            <div class="trois">
+            <h3 >Quick Links</h3>
                 <hr>
                 <hr>
-                <ul style="list-style: none; padding: 0;">
-                    <li><a href="#" style="color: white; text-decoration: none;">Lorem ipsum</a></li>
-                    <li><a href="#" style="color: white; text-decoration: none;">Pellentesque</a></li>
-                    <li><a href="#" style="color: white; text-decoration: none;">Aenean vulputate</a></li>
-                    <li><a href="#" style="color: white; text-decoration: none;">Vestibulum sit amet</a></li>
-                    <li><a href="#" style="color: white; text-decoration: none;">Nam dignissim</a></li>
+                <ul >
+                    <li><a href="#" >Lorem ipsum</a></li>
+                    <li><a href="#" >Pellentesque</a></li>
+                    <li><a href="#" >Aenean vulputate</a></li>
+                    <li><a href="#" >Vestibulum sit amet</a></li>
+                    <li><a href="#" >Nam dignissim</a></li>
                 </ul>
             </div>
     
-            <div class="quatre" style="flex: 1; min-width: 200px; margin-bottom: 20px;">
-                <h3 style="text-transform: uppercase;" >Newsletter</h3>
+            <div class="quatre" >
+                <h3 >Newsletter</h3>
                 <hr>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed porta dui. Class aptent taciti sociosqu.</p>
                 <form style="display: flex;">
-                    <input type="email" placeholder="Your email here" style="padding: 10px; width: calc(100% - 80px);">
-                    <button type="submit" style="padding: 10px 20px; background-color: rgb(0, 0, 0); color: white; border: none;">Submit</button>
+                    <input type="email" placeholder="Your email here" >
+                    <button type="submit" >Submit</button>
                 </form>
             </div>
         </div>
     
-        <div class="finn" style=" text-align: center; margin-top: 20px; border-top: 1px solid #000000; padding-top: 20px;">
-            <a href="#" style="color: white; margin-right: 10px;">Terms of use</a> |
-            <a href="#" style="color: white; margin-right: 10px;">Privacy policy</a> |
-            <a href="#" style="color: white; margin-right: 10px;">Cookies</a> |
-            <a href="#" style="color: white; margin-right: 10px;">Accessibility help</a> |
-            <a href="#" style="color: white; margin-right: 10px;">Advertise with us</a> |
-            <a href="#" style="color: white;">Contact us</a>
+        <div class="finn" >
+            <a href="#" >Terms of use</a> |
+            <a href="#" >Privacy policy</a> |
+            <a href="#" >Cookies</a> |
+            <a href="#" >Accessibility help</a> |
+            <a href="#" >Advertise with us</a> |
+            <a id="except" href="#" >Contact us</a>
+        
         </div>
-        <section class="fin" style="background-color: rgb(24, 24, 24); margin-bottom: -40px; margin-left: -20px; ">
-            <div class="fin" style=" margin-top: 20px; display: flex;margin-left: -1px;">
-                <p style="margin-left: 120px;">Copyright © <a href="#" style="color: rgb(255, 0, 0); text-decoration: none;">HTML Codex</a>. All Rights Reserved</p>
-                <p style="margin-left: 695px;">Template <a style="color: red; text-decoration: none;"href="#">By HTML Codex</a></p>
+
+            <div class="fino" >
+                <p style="margin-left: 140px; margin-right:20px ;">Copyright © <a href="#" style="color: rgb(255, 0, 0); text-decoration: none;">HTML Codex</a>. All Rights Reserved</p>
+                <p style="margin-left: 650px;">Template <a style="color: red; text-decoration: none;"href="#">By HTML Codex</a></p>
             </div>
-        </section>
-    
-       
+
     </footer>
     
 </body>
